@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: hsl(0, 5%, 55%);
+}
+#myH1{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight:bold;
+}
+#myDisplay{
+    border: 2px solid hsl(75, 56%, 26%);
+    background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+#myTime{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 4em;
+    color:hsla(0, 0%, 0%, 0.833);
+    padding-top: 15px;
+}
+#startButton{
+    color:white;
+    background-color:hsl(0, 70%, 28%);
+    font-size: 2em;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+#startButton:hover{
+    background-color:hsl(0, 70%, 38%);
+}
+#stopButton{
+    color:white;
+    background-color:hsl(98, 70%, 28%);
+    font-size: 2em;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+#stopButton:hover{
+    background-color:hsl(98, 70%, 38%);
+}
+#resetButton{
+    color:white;
+    background-color:hsl(236, 66%, 34%);
+    font-size: 2em;
+    font-weight: bold;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+#resetButton:hover{
+    background-color:hsl(236, 66%, 44%);
+}
